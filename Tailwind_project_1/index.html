@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>album by tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <header>
+<nav>
+    <div class="bg-teal-600 text-white flex items-center justify-between">
+      <div class="flex items-center ps-4">
+        <a href="#">logo</a>
+      </div>
+      <div class="p-4">
+        <button id="opnbtn">
+          <ion-icon name="grid-outline"></ion-icon>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="sidebar" class="w-64 h-full bg-teal-200 text-white shadow-lg fixed top-0 right-0 transform translate-x-full transition-transform">
+    <div class="p-4">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl text-black font-bold">Menu</h2>
+        <button id="closebtn" class="text-red-500 text-xl">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+      <ul class="space-y-2">
+        <li><a href="#" class="block p-2 hover:bg-teal-600 hover:text-white rounded text-black">Dashboard</a></li>
+        <li><a href="#" class="block p-2 hover:bg-teal-600 hover:text-white rounded text-black">Inbox</a></li>
+        <li><a href="#" class="block p-2 hover:bg-teal-600 hover:text-white rounded text-black">Users</a></li>
+        <li><a href="#" class="block p-2 hover:bg-teal-600 hover:text-white rounded text-black">Products</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <body>
+    
+    <div class="container mx-auto p-3 sm:px-20 pt-20 justify-items-center">
+      <h2 class="text-4xl font-bold pb-5">Album example</h2>
+      <p class="text-center text-xl font-thin">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+      <div class="m-5 sm:mb-30 flex flex-col sm:flex-row gap-4">
+        <button type="button" class="shadow-2xl text-xl bg-teal-100 px-3 border-2 border-teal-600 rounded-lg hover:bg-teal-400 ">log in</button>
+        <button type="button" class="shadow-2xl text-xl bg-teal-400 px-3 border-2 border-teal-600 rounded-lg hover:bg-teal-100">Sign in</button>
+      </div>
+    </div> 
+
+    <br>
+
+    <div class="px-10 bg-teal-100 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+      <div class="bg-white m-2 shadow-2xl border-2 border-teal-600">
+        <img src="https://lipsum.app/id/24/1600x900" alt="card images">
+        <div class="p-3">
+        <h4 class="font-extrabold">Card title</h4>
+        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button type="button" class="shadow-2xl bg-teal-100 px-3 py-2 my-2 text-teal-700 rounded-lg">Download</button>
+        </div>
+
+      </div>
+      <div class="bg-white m-2 shadow-2xl border-2 border-teal-600">
+        <img src="https://lipsum.app/id/24/1600x900" alt="card images">
+        <div class="p-3">
+        <h4 class="font-extrabold">Card title</h4>
+        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button type="button" class="shadow-2xl bg-teal-100 px-3 py-2 my-2 text-teal-700 rounded-lg">Download</button>
+        </div>
+
+      </div>
+      <div class="bg-white m-2 shadow-2xl border-2 border-teal-600">
+        <img src="https://lipsum.app/id/24/1600x900" alt="card images">
+        <div class="p-3">
+        <h4 class="font-extrabold">Card title</h4>
+        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button type="button" class="shadow-2xl bg-teal-100 px-3 py-2 my-2 text-teal-700 rounded-lg">Download</button>
+        </div>
+
+      </div>
+      <div class="bg-white m-2 shadow-2xl border-2 border-teal-600">
+        <img src="https://lipsum.app/id/24/1600x900" alt="card images">
+        <div class="p-3">
+        <h4 class="font-extrabold">Card title</h4>
+        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button type="button" class="shadow-2xl bg-teal-100 px-3 py-2 my-2 text-teal-700 rounded-lg">Download</button>
+        </div>
+
+      </div>
+      <div class="bg-white m-2 shadow-2xl border-2 border-teal-600">
+        <img src="https://lipsum.app/id/24/1600x900" alt="card images">
+        <div class="p-3">
+        <h4 class="font-extrabold">Card title</h4>
+        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button type="button" class="shadow-2xl bg-teal-100 px-3 py-2 my-2 text-teal-700 rounded-lg">Download</button>
+        </div>
+
+      </div>
+      <div class="bg-white m-2 shadow-2xl border-2 border-teal-600">
+        <img src="https://lipsum.app/id/24/1600x900" alt="card images">
+        <div class="p-3">
+        <h4 class="font-extrabold">Card title</h4>
+        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button type="button" class="shadow-2xl bg-teal-100 px-3 py-2 my-2 text-teal-700 rounded-lg">Download</button>
+        </div>
+
+      </div>
+    </div>
+
+    <footer>
+       <div class="bg-teal-600 px-20 py-20">
+        <div class="font-thin text-teal-100">
+    Album example is © Bootstrap, but please download and customize it for yourself!
+
+    New to Bootstrap? Visit the homepage or read our getting started guide.</div>
+    </div>
+    </footer>
+
+    
+  <script>
+    const sidebar = document.getElementById('sidebar');
+    const openBtn = document.getElementById('opnbtn');
+    const closeBtn = document.getElementById('closebtn');
+
+    openBtn.addEventListener('click', () => {
+      sidebar.classList.remove('translate-x-full');
+    });
+
+    closeBtn.addEventListener('click', () => {
+      sidebar.classList.add('translate-x-full');
+    });
+  </script>
+
+  </body>
+</html>
